@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+
+
+background-color: hsl(233, 47%, 7%) ;
+}
+
+
+.MAIN{
+    display: flex;
+    flex-direction: row;
+    margin: 10rem;
+    width: 60rem;
+    height: 25rem;
+}
+
+.text-section{
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-top: 4rem;
+    padding-left: 3rem;   
+}
+
+.text-section h1{
+    padding-right: 3rem;
+}
+
+
+.text-section h1 span{
+    color:  hsl(277, 64%, 61%);
+    font-weight: 900;
+}
+
+.text-section > p{
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+    padding-right: 4rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.lower {
+    display: flex;
+    margin-top: 4rem;
+     font-variant-caps: all-small-caps;
+    font-size: small;
+}
+
+
+.lower p {
+
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+
+.img {
+        position: relative;
+        display: inline-block;
+}
+
+.img img {
+    height: 25rem;
+}
+.img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 64%, 61%, 50%); /* Change the color here */
+  }
+
+ 
